@@ -1,0 +1,2 @@
+net/micode/notes/test/BuildConfig.java
+ net.micode.notes.test.BuildConfig

@@ -1,0 +1,4 @@
+#Wed Apr 17 16:25:24 CST 2024
+base.0=C\:\\Users\\85218\\Desktop\\model\\XiaomiNotes\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

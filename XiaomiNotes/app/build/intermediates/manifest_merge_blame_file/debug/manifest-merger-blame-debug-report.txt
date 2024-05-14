@@ -1,0 +1,329 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="net.micode.notes"
+19    android:versionCode="1"
+20    android:versionName="0.1" >
+21
+22    <uses-sdk
+22-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:24:5-44
+23        android:minSdkVersion="21"
+23-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:24:15-41
+24        android:targetSdkVersion="8" />
+24-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:24:5-44
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:26:5-81
+26-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:26:22-78
+27    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+27-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:27:5-88
+27-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:27:22-85
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:28:5-67
+28-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:28:22-64
+29    <uses-permission android:name="android.permission.READ_CONTACTS" />
+29-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:29:5-72
+29-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:29:22-69
+30    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+30-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:30:5-74
+30-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:30:22-71
+31    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+31-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:31:5-80
+31-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:31:22-77
+32    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+32-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:32:5-71
+32-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:32:22-68
+33    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+33-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:33:5-74
+33-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:33:22-71
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:34:5-81
+34-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:34:22-78
+35    <!-- 连接网络权限，用于执行云端语音能力 -->
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:28:5-67
+36-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:28:22-64
+37    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+38    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+38-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:157:5-70
+38-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:157:22-68
+39    <uses-permission android:name="Manifest.permission.RECORD_AUDIO" />
+39-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:158:5-71
+39-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:158:22-69
+40    <!-- 读取网络信息状态 -->
+41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+41-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:160:5-78
+41-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:160:22-76
+42    <!-- 获取当前wifi状态 -->
+43    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+43-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:162:5-75
+43-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:162:22-73
+44    <!-- 允许程序改变网络连接状态 -->
+45    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+45-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:164:5-78
+45-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:164:22-76
+46    <!-- 读取手机信息权限 -->
+47    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+47-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:166:5-74
+47-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:166:22-72
+48    <!-- 读取联系人权限，上传联系人需要用到此权限 -->
+49    <uses-permission android:name="android.permission.READ_CONTACTS" />
+49-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:29:5-72
+49-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:29:22-69
+50    <!-- 外存储写权限，构建语法需要用到此权限 -->
+51    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+51-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:26:5-81
+51-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:26:22-78
+52    <!-- 外存储读权限，构建语法需要用到此权限 -->
+53    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+53-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:172:5-79
+53-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:172:22-77
+54    <!-- 配置权限，用来记录应用配置信息 -->
+55    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+55-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:174:5-175:42
+55-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:174:22-70
+56    <!-- 手机定位信息，用来为语义等功能提供定位，提供更精准的服务 -->
+57    <!-- 定位信息是敏感信息，可通过Setting.setLocationEnable(false)关闭定位请求 -->
+58    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+58-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:178:5-78
+58-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:178:22-76
+59    <!-- 如需使用人脸识别，还要添加：摄像头权限，拍照需要用到 -->
+60    <application
+60-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:36:5-153:19
+61        android:debuggable="true"
+62        android:icon="@drawable/icon_app"
+62-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:37:9-42
+63        android:label="@string/app_name"
+63-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:38:9-41
+64        android:testOnly="true" >
+65        <activity
+65-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:39:9-52:20
+66            android:name="net.micode.notes.ui.NotesListActivity"
+66-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:40:13-49
+67            android:configChanges="keyboardHidden|orientation|screenSize"
+67-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:41:13-74
+68            android:label="@string/app_name"
+68-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:42:13-45
+69            android:launchMode="singleTop"
+69-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:43:13-43
+70            android:theme="@style/NoteTheme"
+70-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:44:13-45
+71            android:uiOptions="splitActionBarWhenNarrow"
+71-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:45:13-57
+72            android:windowSoftInputMode="adjustPan" >
+72-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:46:13-52
+73            <intent-filter>
+73-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:48:13-51:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:49:17-69
+74-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:49:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:50:17-77
+76-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:50:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:54:9-82:20
+80            android:name="net.micode.notes.ui.NoteEditActivity"
+80-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:55:13-48
+81            android:configChanges="keyboardHidden|orientation|screenSize"
+81-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:56:13-74
+82            android:launchMode="singleTop"
+82-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:57:13-43
+83            android:theme="@style/NoteTheme" >
+83-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:58:13-45
+84            <intent-filter android:scheme="http" >
+84-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:60:13-65:29
+84-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:60:28-49
+85                <action android:name="android.intent.action.VIEW" />
+85-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:61:17-69
+85-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:61:25-66
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:62:17-76
+87-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:62:27-73
+88
+89                <data android:mimeType="vnd.android.cursor.item/text_note" />
+89-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:17-78
+89-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:23-75
+90                <data android:mimeType="vnd.android.cursor.item/call_note" />
+90-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:17-78
+90-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:23-75
+91            </intent-filter>
+92            <intent-filter>
+92-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:67:13-72:29
+93                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+93-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:68:17-79
+93-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:68:25-76
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:62:17-76
+95-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:62:27-73
+96
+97                <data android:mimeType="vnd.android.cursor.item/text_note" />
+97-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:17-78
+97-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:23-75
+98                <data android:mimeType="vnd.android.cursor.item/call_note" />
+98-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:17-78
+98-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:63:23-75
+99            </intent-filter>
+100            <intent-filter>
+100-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:74:13-77:29
+101                <action android:name="android.intent.action.SEARCH" />
+101-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:75:17-71
+101-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:75:25-68
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:62:17-76
+103-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:62:27-73
+104            </intent-filter>
+105
+106            <meta-data
+106-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:79:13-81:54
+107                android:name="android.app.searchable"
+107-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:80:17-54
+108                android:resource="@xml/searchable" />
+108-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:81:17-51
+109        </activity>
+110
+111        <provider
+111-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:84:9-87:43
+112            android:name="net.micode.notes.data.NotesProvider"
+112-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:85:13-63
+113            android:authorities="micode_notes"
+113-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:86:13-47
+114            android:multiprocess="true" />
+114-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:87:13-40
+115
+116        <receiver
+116-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:89:9-101:20
+117            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+117-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:90:13-57
+118            android:label="@string/app_widget2x2" >
+118-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:91:13-50
+119            <intent-filter>
+119-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:92:13-96:29
+120                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+120-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:93:17-84
+120-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:93:25-81
+121                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+121-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:94:17-85
+121-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:94:25-82
+122                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+122-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:95:17-85
+122-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:95:25-82
+123            </intent-filter>
+124
+125            <meta-data
+125-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:98:13-100:58
+126                android:name="android.appwidget.provider"
+126-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:99:17-58
+127                android:resource="@xml/widget_2x_info" />
+127-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:100:17-55
+128        </receiver>
+129        <receiver
+129-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:102:9-115:20
+130            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+130-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:103:13-57
+131            android:label="@string/app_widget4x4" >
+131-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:104:13-50
+132            <intent-filter>
+132-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:92:13-96:29
+133                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+133-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:93:17-84
+133-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:93:25-81
+134                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+134-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:94:17-85
+134-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:94:25-82
+135                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+135-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:95:17-85
+135-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:95:25-82
+136            </intent-filter>
+137
+138            <meta-data
+138-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:98:13-100:58
+139                android:name="android.appwidget.provider"
+139-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:99:17-58
+140                android:resource="@xml/widget_4x_info" />
+140-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:100:17-55
+141        </receiver>
+142        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
+142-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:117:9-121:20
+142-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:117:19-55
+143            <intent-filter>
+143-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:118:13-120:29
+144                <action android:name="android.intent.action.BOOT_COMPLETED" />
+144-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:119:17-79
+144-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:119:25-76
+145            </intent-filter>
+146        </receiver>
+147        <receiver
+147-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:123:9-126:20
+148            android:name="net.micode.notes.ui.AlarmReceiver"
+148-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:124:13-61
+149            android:process=":remote" >
+149-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:125:13-38
+150        </receiver>
+151
+152        <activity
+152-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:128:9-133:20
+153            android:name="net.micode.notes.ui.AlarmAlertActivity"
+153-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:129:13-50
+154            android:label="@string/app_name"
+154-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:130:13-45
+155            android:launchMode="singleInstance"
+155-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:131:13-48
+156            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+156-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:132:13-75
+157        </activity>
+158        <activity
+158-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:135:9-140:20
+159            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+159-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:136:13-71
+160            android:label="@string/preferences_title"
+160-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:137:13-54
+161            android:launchMode="singleTop"
+161-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:138:13-43
+162            android:theme="@android:style/Theme.Holo.Light" >
+162-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:139:13-60
+163        </activity>
+164        <activity
+164-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:141:9-144:20
+165            android:name="net.micode.notes.ui.ShowResultActivity"
+165-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:142:13-50
+166            android:label="@string/app_name" >
+166-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:143:13-45
+167        </activity>
+168
+169        <service
+169-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:145:9-148:19
+170            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+170-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:146:13-74
+171            android:exported="false" >
+171-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:147:13-37
+172        </service>
+173
+174        <meta-data
+174-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:150:9-152:52
+175            android:name="android.app.default_searchable"
+175-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:151:13-58
+176            android:value=".ui.NoteEditActivity" />
+176-->C:\Users\85218\Desktop\model\XiaomiNotes\app\src\main\AndroidManifest.xml:152:13-49
+177    </application>
+178
+179</manifest>
